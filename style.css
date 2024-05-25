@@ -1,0 +1,226 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    background-image: url(assets/WhatsApp\ Image\ 2024-05-24\ at\ 15.36.23_c5826b8e.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+.navbar{
+    text-align: right;
+    margin-right: 4rem;
+    padding: 2rem;
+}
+.navbar a{
+    padding: 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+ 
+}
+.main .name{
+    font-size: 10rem;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+}
+
+.quote{
+    width: 30rem;
+    margin-left: 35%;
+    margin-top: 10%;
+    font-size: 2rem;
+    color: rgb(14, 14, 14);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.quote2{
+    width: 30rem;
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 4rem;
+    color: rgb(14, 14, 14);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.leaders{
+    background-color: rgb(240, 219, 250);
+    height: 150vh;
+    text-align: center;
+}
+/* .leaders p{
+    color: white;
+} */
+.leaders h1{
+    color: white;
+    padding-top: 1rem;
+}
+.sub_head{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: plum;
+    margin-left: 650px;
+    margin-top:50px ;
+    padding: 10px;
+
+
+}
+.leader1{
+    height: 130vh;
+    text-align: center;
+    color: black;
+}
+.leader1 p{
+    color: black;
+}
+.leader1 h1{
+    color: white;
+}
+.sub_head1{
+    width: 300px;
+    height: 30px;
+    color: black;
+    border-radius: 5px;
+    background-color: plum;
+    margin-left: 600px;
+    margin-top:50px ;
+    padding: 10px;
+}
+.leader2{
+    background-color: rgb(240, 219, 250);
+    height: 140vh;
+    text-align: center;
+    padding-top: 20px;
+}
+/* .leader2 p{
+    color: white;
+} */
+.leader2 h1{
+    color: white;
+    padding-top: 1rem;
+}
+.sub_head2{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: plum;
+    margin-left: 550px;
+    margin-top:50px ;
+    padding: 10px;
+
+
+}
+
+.profile img{
+    width: 200px;
+    height: 200px;
+    margin: 3rem;
+    border-radius: 50%;
+   
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact p{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+
+}
+.outer_contact{
+    width: 50%;
+    height: 45rem;
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgba(0 , 0, 0, 0.80), 0 10px 10px rgba(0 , 0, 0, 0.80); 
+    margin:  50px 300px 50px 350px ;
+    padding: 3rem  3rem 2rem 3rem ;
+    /* background-color: rgb(66, 65, 65); */
+    background-color: rgb(240, 219, 250);
+}
+/* .outer_contact:hover{
+    box-shadow: 4px 4px 15px teal;
+} */
+label{
+    color: black;
+}
+input{
+    color: black;
+    font-weight:bold ; 
+}
+textarea{
+    color: black;
+    font-weight:bold ;
+}
+textarea:hover{
+    border: teal 2px solid; 
+}
+.det{
+    /* background-color: rgb(23, 21, 21); */
+    /* background-color: rgb(66, 65, 65); */
+    border-radius: 0.2rem;
+    border: 0.1rem solid black;
+    box-shadow: 4px 8px -18px black;
+    padding: .5rem ;
+}
+.det:hover{
+    border: 2px solid teal;
+}
+#name{
+    width: 96%;
+}
+#phone{
+    width: 96%;
+}
+#email{
+    width: 96%;
+}
+#subject{
+    width: 96%;
+}
+#msg{
+    height: 180px;
+    width: 96%;
+}
+.send_msg{
+    height: 3rem;
+    width: 97%;
+    color:plum;
+    font-size: 1.2rem;
+    padding:0px;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    margin-left: 0px;
+   
+    box-shadow: 0 14px 28px rgba(0 , 0, 0, 0.80), 0 10px 10px rgba(0 , 0, 0, 0.80);
+   
+    /* background-color: rgb(66, 65, 65); */
+}
+ a{
+    text-decoration: none;
+    border: 2px solid transparent;
+    color:black;
+    font-weight: 800;
+    color: white;
+    padding: 10px;
+}
+
+#arrow {
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+} 
